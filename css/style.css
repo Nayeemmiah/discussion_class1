@@ -1,0 +1,104 @@
+header{
+    background: blanchedalmond;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-left: 20px;
+    cursor: pointer;
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+
+ 
+ul li{
+    display: inline-block;
+}
+ul li a{
+    background: yellowgreen;
+    padding: 8px;
+    transition: .5s all;
+    border-radius: 10px;
+}
+ul li a:hover{
+    color: rgb(255, 255, 255);
+    background: mediumorchid;
+}
+
+
+
+
+
+
+
+
+
+.news{
+    display: flex;
+    background: yellowgreen;
+    
+}
+.title{
+    width: 200px;
+    background: red;
+    color: aliceblue;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.description{
+    padding: 10px;
+}
+
+button{
+    background: yellow;
+    padding: 8px;
+   border-radius: 8px;
+    border: none;
+    margin-right: 20px;
+    
+}
+button a{
+  text-transform: uppercase;
+  padding: 2px;
+}
+
+button:hover{
+    background: rgb(209, 132, 15);
+    color: aliceblue;
+
+}
+
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+   }
+   th,td{
+     padding: 8px;
+     text-align: center;
+     border: 1px solid rgb(165, 159, 159);
+   
+   }
+   tr:nth-child(odd){
+     background: rgba(47, 255, 203, 0.39);
+   
+   }
+   tr:first-child{
+     background: rgb(246, 250, 3);
+   
+   }
+   
